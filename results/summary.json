@@ -1,0 +1,121 @@
+{
+  "ablation": [
+    {
+      "config": "A",
+      "mean_steps": 514.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 33.27640278911575,
+      "pred_err": 0.0,
+      "valence_corr": 0.0,
+      "valence_reg_corr": 0.0,
+      "abs_valence_corr": 0.0,
+      "reg_relevant_frac": 0.5634517766497462,
+      "death_reasons": {
+        "energy": 3
+      }
+    },
+    {
+      "config": "B",
+      "mean_steps": 567.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 38.0891710859514,
+      "pred_err": 3.816796314131962,
+      "valence_corr": 0.5752669779943155,
+      "valence_reg_corr": -0.6674609700084745,
+      "abs_valence_corr": 0.6674609700084745,
+      "reg_relevant_frac": 0.48769574944071586,
+      "death_reasons": {
+        "energy": 3
+      }
+    },
+    {
+      "config": "B1",
+      "mean_steps": 473.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 19.261413443986257,
+      "pred_err": 0.0,
+      "valence_corr": 0.7393613310216841,
+      "valence_reg_corr": -0.5760586651701423,
+      "abs_valence_corr": 0.5760586651701423,
+      "reg_relevant_frac": 0.6458923512747875,
+      "death_reasons": {
+        "load": 3
+      }
+    },
+    {
+      "config": "B2",
+      "mean_steps": 514.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 33.27640278911575,
+      "pred_err": 5.9559499390936566,
+      "valence_corr": 0.0,
+      "valence_reg_corr": 0.0,
+      "abs_valence_corr": 0.0,
+      "reg_relevant_frac": 0.5634517766497462,
+      "death_reasons": {
+        "energy": 3
+      }
+    },
+    {
+      "config": "B3",
+      "mean_steps": 1026.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 2.675730472385736,
+      "pred_err": 2.838554256663329,
+      "valence_corr": -0.3759408428361043,
+      "valence_reg_corr": -0.4776938825226372,
+      "abs_valence_corr": 0.4776938825226372,
+      "reg_relevant_frac": 0.6997792494481236,
+      "death_reasons": {
+        "temp": 3
+      }
+    },
+    {
+      "config": "B4",
+      "mean_steps": 465.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 19.188231715356263,
+      "pred_err": 4.65267499897699,
+      "valence_corr": 0.7561839593705101,
+      "valence_reg_corr": -0.40009402414947337,
+      "abs_valence_corr": 0.40009402414947337,
+      "reg_relevant_frac": 0.6405797101449275,
+      "death_reasons": {
+        "load": 3
+      }
+    },
+    {
+      "config": "B5",
+      "mean_steps": 523.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 33.177185653658924,
+      "pred_err": 118.11886112569891,
+      "valence_corr": 0.8242027247581013,
+      "valence_reg_corr": 0.36918490276815796,
+      "abs_valence_corr": 0.36918490276815796,
+      "reg_relevant_frac": 0.5384615384615384,
+      "death_reasons": {
+        "load": 3
+      }
+    },
+    {
+      "config": "B_permVref",
+      "mean_steps": 525.0,
+      "alive_at_end": 0.0,
+      "cost_per_step": 26.815842942511683,
+      "pred_err": 5.180634521673818,
+      "valence_corr": 0.20850536232850528,
+      "valence_reg_corr": 0.026258289960809398,
+      "abs_valence_corr": 0.026258289960809398,
+      "reg_relevant_frac": 0.5234567901234568,
+      "death_reasons": {
+        "load": 3
+      }
+    }
+  ],
+  "theta_experiment": {
+    "final_width": 6.800000000000006,
+    "width_span": 2.499999999999999,
+    "verdict": "converged-finite"
+  }
+}
